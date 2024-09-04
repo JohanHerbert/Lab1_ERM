@@ -24,7 +24,10 @@ Git
     To check what/where things have changed since your latest commit: git status
     Add file to staging environment: git add filename
     Add all changes since last commit to staging environment: git add .
-    To save changes you have made in a branch: git commit -m "Commit message"
+    To remove all files from your staging environment: git reset
+    To remove one file from staging environment: git reset <filename>
+    
+    To save changes you have made and staged in a branch: git commit -m "Commit message"
     Push your current branch to github to the branch branch-name: git push origin branch-name
     To see all your branches: git branch
     To create a new branch: git branch branch-name
