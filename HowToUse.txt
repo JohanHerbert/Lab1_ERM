@@ -32,13 +32,13 @@ Git
     To see all your branches: git branch
     To create a new branch: git branch branch-name
     To delete a branch: git branch -d branch-name (Use -D if you have uncommitted changes in the branch but want to delete anyways)
-    To go to a branch: git checkout branc-name
+    To go to a branch: git checkout branch-name
     To create and go to new branch: git checkout -b new-branch-name
     To merge the branch you are in with the specified branch: git merge branch-name
     To see a list of commits: git log
     To see difference between branches (have never used): git diff
 
-    To get the current version of the github repo to your current branch: git pull (only do this in your develop branch then merge this into your curren working branch create a new branch )
+    To get the current version of the github repo to your current branch: git pull (only do this in your main branch then merge this into your curren working branch create a new branch )
     
 
 'jvjdvjd v jd fvjka dfjkvndjkvfnf'
@@ -48,12 +48,12 @@ Workflow git
     0.1. Get a cloned version of the github repo to your computer
     0.2. Set remote upstream     
 
-    1. Update your develop branch
+    1. Update your main branch
     2. Create new branch (prefferably with some name that is indicative of what you do in the branch)
     3. Switch to new branch
     4. Work on project and do commits now and then
     5. Push to github to a branch with the same name as your branch 
-    6. Create Pull request (means that you ask to merge your changes into the main branch called develop)
+    6. Create Pull request (means that you ask to merge your changes into the main branch )
     7. Go to main branch locally and do git pull
     8. Go to step 2 again 
 
