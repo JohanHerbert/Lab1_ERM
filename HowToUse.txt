@@ -40,6 +40,10 @@ Git
 
     To get the current version of the github repo to your current branch: git pull (only do this in your develop branch then merge this into your curren working branch create a new branch )
     
+
+'jvjdvjd v jd fvjka dfjkvndjkvfnf'
+
+
 Workflow git
     0.1. Get a cloned version of the github repo to your computer
     0.2. Set remote upstream     
