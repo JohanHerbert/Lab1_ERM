@@ -18,14 +18,6 @@ def saveDataToCsv(stockData, stockName):
     stockData.to_csv(directory)
     return fileName
     
-def toReturns():
-    # Todo
-    return 0
-
-def toLogReturns():
-    # Todo
-    return 0
-
 
 
 
