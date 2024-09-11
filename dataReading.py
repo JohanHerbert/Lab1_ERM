@@ -1,5 +1,6 @@
 import yfinance as yf
 import pandas as pd
+from datetime import datetime
 
 def readDataFromYahoo(ticker, startDate, endDate):
     stocks = yf.Ticker(ticker)
@@ -13,7 +14,7 @@ def readDataFromFile(fileName):
 def saveDataToCsv(stockData, stockName):
     # startDate = stockData.index.min()
     # endDate = stockData.index.max()    
-    fileName = 'price_'+ stockName + '.csv'
+    fileName = 'price_'+ stockName+'_'+ datetime.today().strftime('%Y-%m-%d') + '.csv'
     directory = 'DataFileFolder\\'+ fileName
     stockData.to_csv(directory)
     return fileName
